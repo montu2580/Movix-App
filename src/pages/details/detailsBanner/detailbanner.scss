@@ -69,6 +69,12 @@
                 @include md {
                     font-size: 34px;
                     line-height: 44px;
+                  
+                }
+                @include sm {
+                    font-size: 24px;
+                    line-height: 24px;
+                    
                 }
             }
             .subtitle {
@@ -80,6 +86,11 @@
                 @include md {
                     font-size: 20px;
                     line-height: 28px;
+                }
+                @include sm {
+                    font-size: 14px;
+                    line-height: 20px;
+                    
                 }
             }
             .genres {
