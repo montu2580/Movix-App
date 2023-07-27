@@ -38,7 +38,7 @@ const VideosSection = ({ data, loading }) => {
                 }}
               >
                 <div className="videoThumbnail">
-                  <Img
+                  <Img //youtube k officalposter accses krne ka url hai
                     src={`https://img.youtube.com/vi/${video.key}/mqdefault.jpg`}
                   />
                   <PlayIcon />

@@ -19,7 +19,7 @@ const Trending = () => {
         <div className="carouselSection">
             <ContentWrapper>
                 <span className="carouselTitle">Trending</span>
-                {/* DYNAMIC H OR BHI KUCH ADD KR SKTE LIKE MONTH YEAR */}
+                {/* DYNAMIC(ARRAY BNAHENGE) H OR BHI KUCH ADD KR SKTE LIKE MONTH YEAR */}
                 <SwitchTabs data={["Day", "Week"]} onTabChange={onTabChange} /> 
             </ContentWrapper>
             <Carousel data={data?.results} loading={loading} />

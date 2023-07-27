@@ -37,6 +37,7 @@ function App() {
         });
     };
 
+    // promises.all use for caliing multiple api 
     const genresCall = async () => {
         let promises = [];
         let endPoints = ["tv", "movie"];

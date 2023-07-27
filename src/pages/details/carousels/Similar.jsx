@@ -9,6 +9,7 @@ const Similar = ({ mediaType, id }) => {
     const title = mediaType === "tv" ? "Similar TV Shows" : "Similar Movies";
 
     return (
+        // same code rhega carousel ka
         <Carousel
             title={title}
             data={data?.results}

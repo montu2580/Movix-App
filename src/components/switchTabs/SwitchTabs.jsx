@@ -24,6 +24,7 @@ const SwitchTabs = ({ data, onTabChange }) => {
             onClick={() => activeTab(tab, index)}
           >
             {tab}
+            {/* DAY OR WEEK ISME AA JAHEGA */}
           </span>
         ))}
         <span className="movingBg" style={{ left }} />

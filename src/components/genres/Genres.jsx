@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 
 import "./genres.scss";
 //GENRES LIKE A CATEGRAY LIKE (ACTION ,COMEDY , HOORAR ,FANY...)
-const Genres = ({ data }) => {
+const  Genres = ({ data }) => {
   const { genres } = useSelector((state) => state.home); //sare genres yha store hoghe store se...
 
   return (

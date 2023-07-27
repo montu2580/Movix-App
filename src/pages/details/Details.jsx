@@ -18,7 +18,8 @@ const Details = () => {
 
     return (
         <div>
-            <DetailsBanner video={data?.results?.[0]} crew={credits?.crew} />
+            {/* result se first object liya 0 index se  */}
+            <DetailsBanner video={data?.results?.[0]} crew={credits?.crew} /> 
             <Cast data={credits?.cast} loading={creditsLoading} />
             <VideosSection data={data} loading={loading} />
             <Similar mediaType={mediaType} id={id} />

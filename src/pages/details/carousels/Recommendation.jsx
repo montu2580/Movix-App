@@ -11,6 +11,7 @@ const Recommendation = ({ mediaType, id }) => {
     );// api call
 
     return (
+        // same code rhega carousel ka
         <Carousel
             title="Recommendations"
             data={data?.results}

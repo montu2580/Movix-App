@@ -42,6 +42,7 @@ const DetailsBanner = ({ video, crew }) => {
     <div className="detailsBanner">
       {!loading ? ( //MEAN LOADING STAGE M NHI H DATA  SERVICES SE AA CHKA HAI 
         <>
+          {/* !! boloen m covert   */}
           {!!data && ( //DATA CONFORM KI AAGYA DATA
             <React.Fragment>
               <div className="backdrop-img">
@@ -90,7 +91,7 @@ const DetailsBanner = ({ video, crew }) => {
                       <div className="heading">Overview</div>
                       <div className="description">{data.overview}</div>
                     </div>
-
+                        {/* status about movie like director datw */}
                     <div className="info">
                       {data.status && ( //STATUS
                         <div className="infoItem">

@@ -9,7 +9,7 @@ const useFetch = (url) => {
         setLoading("loading...");
         setData(null);
         setError(null);
-
+// jaise hi data aahehga  loading state enable ho  jahegi or fir nhi aane per disable ho jahegi  
         fetchDataFromApi(url)
             .then((res) => {
                 setLoading(false);
